@@ -3,7 +3,11 @@ function sum(a, b) {
     return a + b;
 }
 
-let sum2 = (a, b) => a + b;
+let  sum2 = (a, b) => {
+    return a + b;
+}
+
+let sum3 = (a, b) => a + b;
 
 // ---------------------------------------- 2)
 function isPositive(number) {
@@ -17,6 +21,8 @@ let isPositive3 = () => number >= 0;
 function randomNumber() {
     return Math.random;
 }
+
+let randomNumber2 = () => Math.random();
 
 // ---------------------------------------- 4)
 document.addEventListener('click', function() {
