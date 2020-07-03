@@ -28,3 +28,5 @@ let randomNumber2 = () => Math.random();
 document.addEventListener('click', function() {
     console.log('Clicked');
 })
+
+document.addEventListener('click', () => console.log('Clicked'));
