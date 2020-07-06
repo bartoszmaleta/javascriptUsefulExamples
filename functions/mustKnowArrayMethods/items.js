@@ -32,4 +32,10 @@ const foundItem = items.find((item) => {
 
 console.log(foundItem);
 
+// ---------------------------------------------- forEach
+items.forEach((item) => {
+    console.log(item.name);
+    console.log(item.price);
+})
+
 // ----------------------------------------------
