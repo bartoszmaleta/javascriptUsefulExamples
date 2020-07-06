@@ -45,4 +45,11 @@ const hasInexpensiveItems = items.some((item) => {
 
 console.log(hasInexpensiveItems);
 
+// ---------------------------------------------- every
+const hasInexpensiveItems2 = items.every((item) => {
+    return item.price <= 1000;
+})
+
+console.log(hasInexpensiveItems2);
+
 // ----------------------------------------------
