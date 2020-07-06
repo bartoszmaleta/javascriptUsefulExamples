@@ -1,6 +1,7 @@
 // https://www.youtube.com/watch?v=R8rmfD9Y5-c&t=2s
 // 8 Must Know JavaScript Array Methods
 
+// ---------------------------------------------- filter
 const items = [
     { name: 'Bike',        price: 100},
     { name: 'TV',        price: 200},
@@ -17,3 +18,11 @@ const filteredItems = items.filter((item) => {
 
 console.log(filteredItems);
 
+// ---------------------------------------------- map
+const itemNames = items.map((item) => {
+    return item.name;
+})
+
+console.log(itemNames);
+
+// ---------------------------------------------- find
