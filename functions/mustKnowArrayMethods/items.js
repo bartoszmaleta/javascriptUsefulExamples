@@ -38,4 +38,11 @@ items.forEach((item) => {
     console.log(item.price);
 })
 
+// ---------------------------------------------- some
+const hasInexpensiveItems = items.some((item) => {
+    return item.price <= 100;
+})
+
+console.log(hasInexpensiveItems);
+
 // ----------------------------------------------
