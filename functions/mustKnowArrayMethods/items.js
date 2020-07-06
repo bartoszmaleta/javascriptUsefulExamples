@@ -52,4 +52,11 @@ const hasInexpensiveItems2 = items.every((item) => {
 
 console.log(hasInexpensiveItems2);
 
+// ---------------------------------------------- reduce
+const total = items.reduce((currentTotal, item) => {
+    return item.price + currentTotal;
+}, 0)
+
+console.log(total);
+
 // ----------------------------------------------
